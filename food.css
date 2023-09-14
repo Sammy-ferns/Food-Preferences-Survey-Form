@@ -1,6 +1,4 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 th, td {
     padding: 0.5rem;
@@ -14,3 +12,46 @@ button {
     margin: 2px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FFEECC;
+    font-family: 'DM Serif Text', serif;
+  }
+
+  .container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: #FFDDCC;
+  }
+
+  table {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .checkbox-table {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+
+  
+  .checkbox-table td {
+    text-align: left;
+    padding: 5px; 
+  }
+
+  h1 {
+    color: #9A3B3B;
+    text-decoration: underline;
+  }
+
+  h3 {
+    color: #af5050;
+  }
